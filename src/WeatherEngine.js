@@ -70,6 +70,22 @@ export default function WeatherEngine() {
           />
           <input type="submit" value="Search" />
         </form>
+        <p>
+          <a
+            href="https://github.com/NadiasCodes/react-forecast-application"
+            target="blank"
+          >
+            Open Sourced,{" "}
+          </a>
+          and deployed on{" "}
+          <a
+            href="https://react-forecast-application.vercel.app/"
+            target="blank"
+          >
+            {" "}
+            Vercel
+          </a>
+        </p>{" "}
       </div>
     );
   }
