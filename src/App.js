@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import Weather from "./Weather";
 
-
 export default function App() {
   return (
     <div className="App">
@@ -31,7 +30,7 @@ export default function App() {
           </a>{" "}
           & hosted on{" "}
           <a
-            href="https://forecast-app-react.vercel.app/"
+            href="https://react-forecast-app.vercel.app/"
             target="blank
         "
           >
