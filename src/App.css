@@ -7,3 +7,64 @@
   font-size: 14px;
   margin: 10px 0;
 }
+
+:root {
+  --main-font-family: "Poppins", sans-serif;
+  --secondary-font-family: "Hachi Maru Pop", cursive;
+}
+
+body {
+  background-color: #bcb8b1;
+  font-family: "Poppins", sans-serif;
+}
+
+.Weather {
+  border: 1px solid black;
+  padding: 16px;
+
+  border-radius: 4px;
+}
+
+.Weather form {
+  margin-bottom: 20px;
+}
+
+.Weather h1 {
+  font-size: 34px;
+  font-weight: 100;
+  line-height: 29px;
+  
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  list-style: none;
+}
+.Weather .temperature {
+  font-weight: bold;
+  color: black;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 80px;
+}
+
+.Weather img {
+  position: relative;
+  bottom: 6px;
+  width: 80px;
+}
+.Weather .unit {
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  top: -32px;
+  margin-left: 5px;
+  line-height: 1;
+}
