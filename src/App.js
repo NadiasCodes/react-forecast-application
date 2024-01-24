@@ -31,7 +31,7 @@ export default function App() {
           </a>{" "}
           & hosted on{" "}
           <a
-            href="https://weather-app-made-with-react.vercel.app/"
+            href="https://forecast-app-react.vercel.app/"
             target="blank
         "
           >
