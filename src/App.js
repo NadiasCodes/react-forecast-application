@@ -9,11 +9,7 @@ export default function App() {
         <Weather defaultCity="Paris" />
         <footer>
           This project was coded by{" "}
-          <a
-            href="https://www.linkedin.com/in/nadia-bouli/"
-            target="blank
-        "
-          >
+          <a href="https://www.linkedin.com/in/nadia-bouli/" target="blank">
             Nadia Bouli
           </a>{" "}
           with{" "}
