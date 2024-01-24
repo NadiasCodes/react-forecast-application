@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #bcb8b1;
+  background-color: #d4972c;
   font-family: "Poppins", sans-serif;
 }
 
@@ -23,7 +23,6 @@ body {
   font-size: 34px;
   font-weight: 100;
   line-height: 29px;
-  
 }
 
 .Weather ul {
