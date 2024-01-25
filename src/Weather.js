@@ -3,12 +3,12 @@ import "./Weather.css";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
+import { BallTriangle } from "react-loader-spinner";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState(props.defaultCity);
   function handleResponse(response) {
-    
     setWeatherData({
       ready: true,
       date: new Date(response.data.time * 1000),
@@ -66,6 +66,16 @@ export default function Weather(props) {
     );
   } else {
     search();
-    return "loading...";
+    return (
+      <BallTriangle
+        height="80"
+        width="80"
+        color="black"
+        ariaLabel="circles-loading"
+        wrapperStyle={{}}
+        wrapperClass=""
+        visible={true}
+      />
+    );
   }
 }
