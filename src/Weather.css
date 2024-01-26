@@ -4,15 +4,22 @@
 }
 
 body {
-  background-color: #d8ccb7 !important;
+  background-color: #000000 !important;
   font-family: "Poppins", sans-serif !important;
 }
 
 .Weather {
-  border: 1px solid black;
-  padding: 16px;
-
-  border-radius: 4px;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/112/271/original/4465a930c044329d64e4a8373ba7ba0d.jpg?1706261633");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    color: #fff;
+    height: 700px;
+    margin: 30px auto;
+    max-width: 700px;
+    padding: 16px;
+    width: 400px;
 }
 
 .Weather form {
@@ -24,7 +31,10 @@ body {
   font-weight: 300;
   line-height: 29px;
 }
-
+.Weather .form-control{
+  background-color: ;
+  border: 1px solid red;
+}
 .Weather ul {
   margin: 0;
   padding: 0;
