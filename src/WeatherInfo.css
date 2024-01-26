@@ -53,32 +53,7 @@
   font-family: var(--secondary-font-family);
 }
 
-.temperature {
-  text-align: right;
-  font-size: 60px;
-  font-weight: 300;
-  margin-right: 43px;
-  margin-top: 3px;
-}
-.unit {
-  font-size: 21px;
-  display: flex;
-  margin-left: 55px;
-  margin-top: -80px;
-}
-.unit a {
-  color: #656084;
-  text-decoration: none;
-}
 
-.background {
-  background-color: #a7a3bd;
-  border-radius: 100px;
-  width: 120px;
-  height: 120px;
-  padding: 10px;
-  margin: 10px;
-}
 .humidity {
   font-size: 18px;
   font-weight: 400;
@@ -87,6 +62,7 @@
 .humidity-text {
   font-size: 16px;
   font-family: var(--secondary-font-family);
+  font-weight: 400;
 }
 .wind {
   font-size: 20px;
