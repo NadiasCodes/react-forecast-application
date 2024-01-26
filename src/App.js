@@ -9,8 +9,8 @@ export default function App() {
         <h2>Weather App</h2>
         <Weather defaultCity="Cologne" />
         <footer>
-          This project was coded by{" "}
-          <a href="https://www.linkedin.com/in/nadia-bouli/" target="blank">
+          This project was coded & designed by{" "}
+          <a href="https://www.linkedin.com/in/nadia-bouli/" target="blank" className="coder">
             Nadia Bouli
           </a>{" "}
           with{" "}
