@@ -1,72 +1,64 @@
 :root {
   --main-font-family: "Poppins", sans-serif;
   --secondary-font-family: "Hachi Maru Pop", cursive;
+  --main-color: #aaa4c4;
 }
 
 body {
-  background-color: #000000 !important;
+  background-image: url("https://img.freepik.com/free-photo/vibrant-pink-watercolor-painting-background_53876-139893.jpg?w=1380&t=st=1706275340~exp=1706275940~hmac=e084b66b2113d6c0d0595511287069f9138471a8d3f71bcf9f758d8b090dab50")!important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Poppins", sans-serif !important;
 }
 
 .Weather {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/112/271/original/4465a930c044329d64e4a8373ba7ba0d.jpg?1706261633");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    color: #fff;
-    height: 700px;
-    margin: 30px auto;
-    max-width: 700px;
-    padding: 16px;
-    width: 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/112/271/original/4465a930c044329d64e4a8373ba7ba0d.jpg?1706261633");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  background-size: cover;
+  color: #fff;
+  padding: 16px;
+  margin: 30px auto;
+  max-width: 700px;
+  width: 500px;
+  height: 700px;
 }
 
 .Weather form {
   margin-bottom: 20px;
 }
 
-.Weather h1 {
-  font-size: 34px;
-  font-weight: 300;
-  line-height: 29px;
-}
-.Weather .form-control{
-  background-color: ;
-  border: 1px solid red;
-}
-.Weather ul {
-  margin: 0;
-  padding: 0;
+.Weather .form-control {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  background-color: var(--main-color) !important;
+  border-color: rgb(140, 133, 133) !important;
+
+  margin-bottom: 20px;
+  color: white !important;
 }
 
-.Weather li {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 19px;
-  list-style: none;
-}
-.Weather .temperature {
-  font-weight: bold;
-  color: black;
-  font-size: 60px;
-  font-weight: 500;
-  line-height: 80px;
-  padding: 10px;
+.Weather .button {
+  background-color: var(--main-color);
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  transition: all 200ms ease-in-out;
+  height: 45px;
+  width: 130px;
+  position: relative;
+  bottom: 5px;
+  color: white;
+  right: 20px;
 }
 
-.Weather canvas {
-  position: relative;
-  bottom: -8px;
-  width: 60px;
-  display: inline-block;
-  margin-top: 5px;
+.Weather .button:hover {
+  background-color: white;
+  color: var(--main-color);
 }
-.Weather .unit {
-  font-size: 25px;
-  font-weight: 500;
-  position: relative;
-  top: -32px;
-  right: 14px;
-  line-height: 1;
-}
+
+

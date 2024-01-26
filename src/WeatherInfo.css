@@ -1,0 +1,126 @@
+.header-background {
+  display: flex;
+  background-color: #c7c4dc;
+  border-radius: 200px;
+  width: 220px;
+  height: 220px;
+  margin: auto;
+
+  transform: scale(1);
+  animation: pulse 3s infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 #c3c4dd7a;
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px #90a0c518;
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0;
+  }
+}
+.header {
+  display: flex;
+  background-color: #a7a3bd;
+  border-radius: 110px;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  bottom: 210px;
+}
+.header-text {
+  position: relative;
+  bottom: 210px;
+}
+.Weather h1 {
+  font-size: 38px;
+  text-align: center;
+  display: block;
+  font-weight: 300;
+  padding-top: 20px;
+  margin-top: -160px;
+  font-family: var(--secondary-font-family);
+}
+.Weather .date {
+  text-align: center;
+  margin-top: -2px;
+  margin-bottom: -160px;
+  font-family: var(--secondary-font-family);
+}
+
+.temperature {
+  text-align: right;
+  font-size: 60px;
+  font-weight: 300;
+  margin-right: 43px;
+  margin-top: 3px;
+}
+.unit {
+  font-size: 21px;
+  display: flex;
+  margin-left: 55px;
+  margin-top: -80px;
+}
+.unit a {
+  color: #656084;
+  text-decoration: none;
+}
+
+.background {
+  background-color: #a7a3bd;
+  border-radius: 100px;
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+  margin: 10px;
+}
+.humidity {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 2px;
+}
+.humidity-text {
+  font-size: 16px;
+  font-family: var(--secondary-font-family);
+}
+.wind {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 2px;
+}
+.Details {
+  position: relative;
+  bottom: 20px;
+}
+.description {
+  display: block;
+  position: relative;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 0.5;
+  padding: 11px;
+  left: 65px;
+  bottom: 40px;
+  font-family: var(--secondary-font-family);
+}
+.Weather canvas {
+  background-color: #A7A3BD;
+  border-radius: 120px;
+}
+.Weather .col-8,
+.col-4 {
+  padding-top: 40px;
+}
+footer {
+  text-align: center;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
