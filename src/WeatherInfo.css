@@ -85,7 +85,7 @@
   font-family: var(--secondary-font-family);
 }
 .Weather canvas {
-  background-color: #A7A3BD;
+  background-color: #a7a3bd80;
   border-radius: 120px;
 }
 .Weather .col-8,
