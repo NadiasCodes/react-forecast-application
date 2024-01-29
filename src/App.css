@@ -4,11 +4,33 @@
 .App footer {
   font-size: 17px;
 }
-
+.App p {
+  text-align: center;
+  font-size: 19px;
+   font-family: var(--secondary-font-family);
+}
 .container h2 {
   text-align: center;
   font-family: var(--secondary-font-family);
-  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.ReactIcon {
+  width: 30px;
+  height: 30px;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  color:#66DBFB;
+ 
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .coder {
@@ -32,12 +54,9 @@ footer .social-links a {
   padding: 9px 15px;
   font-size: 29px;
   transition: all 300ms ease-in-out;
-  
 }
 footer .social-links a:hover {
   background-color: #a08fe8;
-  
-  
 }
 
 .githubIcon,

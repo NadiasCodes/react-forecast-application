@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { BsGithub } from "react-icons/bs";
 import { BsWindowFullscreen } from "react-icons/bs";
+import { FaReact } from "react-icons/fa";
 
 
 
@@ -13,6 +14,9 @@ export default function App() {
     <div className="App">
       <div className="container">
         <h2>Weather App</h2>
+        <p>
+          Made with <FaReact className="ReactIcon" />
+        </p>
         <Weather defaultCity="Cologne" />
 
         <footer>
@@ -25,7 +29,7 @@ export default function App() {
             Nadia Bouli
             <br />
           </a>
-         Hosting & GitHub <br />
+          Hosting & GitHub <br />
           <br />{" "}
           <FontAwesomeIcon
             icon={faArrowDown}
