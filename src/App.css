@@ -12,8 +12,35 @@
 }
 
 .coder {
-  font-family: "Dancing Script", cursive;
+  font-family: var(--secondary-font-family);
   text-decoration: none;
-  font-size: 25px;
-  color: var(--secondary-font-family);
+  font-size: 17px;
+  font-weight: 700;
+  color: #5441a8;
+  transition: all 200ms ease-in-out;
+}
+
+.coder:hover {
+  color: #a08fe8;
+}
+
+footer .social-links a {
+  margin: 0 12px;
+
+  background-color: #c7c4dc;
+  border-radius: 50%;
+  padding: 9px 15px;
+  font-size: 29px;
+  transition: all 300ms ease-in-out;
+  
+}
+footer .social-links a:hover {
+  background-color: #a08fe8;
+  
+  
+}
+
+.githubIcon,
+.VercelIcon {
+  color: white;
 }
