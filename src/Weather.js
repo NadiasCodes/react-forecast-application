@@ -6,7 +6,6 @@ import WeatherForecast from "./WeatherForecast";
 import { BallTriangle } from "react-loader-spinner";
 
 
-
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState(props.defaultCity);
