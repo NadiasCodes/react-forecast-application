@@ -13,6 +13,7 @@
     "bootstrap": "^5.3.2",
     "crypto-browserify": "^3.12.0",
     "dotenv": "^16.4.5",
+    "dotenv-webpack": "^8.0.1",
     "lineicons-react": "^1.0.5",
     "path-browserify": "^1.0.1",
     "react": "^18.2.0",

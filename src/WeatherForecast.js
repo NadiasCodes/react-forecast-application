@@ -19,7 +19,7 @@ export default function WeatherForecast(props) {
   function load() {
     let longitude = props.coordinates.longitude;
     let latitude = props.coordinates.latitude;
-    let apiKey = "57t510363ca64d76cf8d437ao0eea1eb";
+    let apiKey = process.env.REACT_APP_WEATHER_API_KEY;
     let apiUrl = `https://api.shecodes.io/weather/v1/forecast?lon=${longitude}&lat=${latitude}&key=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
   }
